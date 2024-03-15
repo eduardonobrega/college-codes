@@ -89,7 +89,7 @@ public class Lista
         }
         str += this.ref.getInfo() + " "; // imprimindo último
 
-        str += "Sentido contrário:";
+        str += " Sentido contrário:";
         for(No p = this.ref; p != this.ref.getProx(); p = p.getAnt())
         {
             str += p.getInfo() + " ";
